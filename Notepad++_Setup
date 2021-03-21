@@ -1,0 +1,2 @@
+https://silentcrash.com/2016/12/run-python-script-notepad/
+C:\Python38\Lib\idlelib\idle.py “$(FULL_CURRENT_PATH)”
