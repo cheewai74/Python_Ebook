@@ -1,0 +1,49 @@
+class Person:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    #def set_details(self, name, age):
+    #    self.name = name
+    #    self.age = age
+
+        # self.name and self.age are instance variable
+        # An instance variable is a variable which is declared in a class
+        # but outside of constructors, methods, or blocks.
+        # Instance variables are created when an object is instantiated,
+        # and are accessible to all the constructors, methods,
+        # or blocks in the class.
+        # It lives as long as the object lives.
+        
+        # name and age are parameters / arguments
+        # A parameter is the variable listed inside the parentheses in the function
+        # definition. An argument is the value that is sent to the function
+        # when it is called.
+        
+    def display(self):
+        # print("I am a person", self)
+        print("I am a person", self.name)
+
+    def greet(self):
+        #print("Hello, how are you doing", self)
+
+        if self.age < 90:
+            print("Hello, how are you doing?")
+        else:
+            print("Hello, how do you do")
+        self.display()
+
+p1 = Person("john",20)
+p2 = Person("Tim",45)
+
+#p1 = Person()
+#p2 = Person()
+#p1.set_details('Bob', 20)
+#p2.set_details('Ted',90)
+
+#p1.display()
+p1.greet()
+
+#p2.display()
+p2.greet()
