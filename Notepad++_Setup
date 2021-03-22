@@ -1,6 +1,7 @@
 https://silentcrash.com/2016/12/run-python-script-notepad/
 C:\Python38\Lib\idlelib\idle.py “$(FULL_CURRENT_PATH)”
 
+https://medium.com/never-too-late-to-machine-learn/how-to-step-by-step-setup-notepad-to-run-python-scripts-e1ce3b3ac7fe
 
 Other Setup
 pip install pycodestyle
